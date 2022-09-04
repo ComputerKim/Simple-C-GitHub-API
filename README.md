@@ -1,5 +1,7 @@
 # Simple-C-GitHub-API
 
+A simple C# helper class to download github files or zip.
+
 Example
 ```
 GitHub.UserAgent = "Test by (your github username here)";
