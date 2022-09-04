@@ -1,7 +1,8 @@
 # Simple-C-GitHub-API
 
+Example
 <code>
-    GitHub.UserAgent = "Test by <insert your github username here>";
+    GitHub.UserAgent = "Test by (your github username here)";
     
     foreach (var file in GitHub.Files("ComputerKim", "ParallelForEach.ps1")) {
         Console.WriteLine($"{file.path} {file.url} {GitHub.File(file.url)}");
